@@ -141,7 +141,7 @@ else
 			{items = {"kohlrabi:seed"}, rarity = 3},
 		}
 	}
-	minetest.register_node("kohlrabi:kohlrabi_5", table.copy(crop_def))
+	minetest.register_node("kohlrabi:kohlrabi_6", table.copy(crop_def))
 
 	-- Register for Mapgen
 	minetest.register_node("kohlrabi:wild_kohlrabi", {
@@ -250,6 +250,7 @@ minetest.register_craft({
 				{"", "group:food_bowl", ""}
 			},
 			replacements = {{"bucket:bucket_water", "bucket:bucket_empty"},
+						   {"group:food_oil", "vessels:glass_bottle"},
 						}
 })
 
@@ -260,6 +261,7 @@ minetest.register_craft({
 				{"", "group:food_bowl", ""}
 			},
 			replacements = {{"bucket:bucket_river_water", "bucket:bucket_empty"},
+						   {"group:food_oil", "vessels:glas_bottle"},
 						}
 })
 
