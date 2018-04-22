@@ -17,7 +17,10 @@ farming<br>
 
 ### optional
 farming_redo<br>
+bucket<br>
 lettuce<br>
+parsley<br>
+vegan_sunflower<br>
 
 ## License
 
